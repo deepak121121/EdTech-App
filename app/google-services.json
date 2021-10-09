@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "745467518723",
+    "project_id": "star-c8d21",
+    "storage_bucket": "star-c8d21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:745467518723:android:896ae7a57a1f7f4f441336",
+        "android_client_info": {
+          "package_name": "com.example.twiniot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "745467518723-jhirqldvqo3f8hqqm4n504lns15bqo62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.twiniot",
+            "certificate_hash": "fc02e475118c4db207a54052b565afd2f4a39368"
+          }
+        },
+        {
+          "client_id": "745467518723-2rlrb839c9sqjfuml9s1ad5b8lh6iff5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSq2_CwShBYY9KR7IlHeOnm8ZQtL6bsVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "745467518723-2rlrb839c9sqjfuml9s1ad5b8lh6iff5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

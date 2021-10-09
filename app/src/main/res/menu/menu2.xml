@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <item android:id="@+id/Students"
+
+        android:title="STUDENTS"
+        tools:ignore="HardcodedText"> </item>
+
+    <item android:id="@+id/Attendences"
+        android:title="ATTENDENCES"
+        tools:ignore="HardcodedText"> </item>
+
+
+
+    <item android:id="@+id/Calander"
+        android:title="Calender"
+        tools:ignore="HardcodedText"> </item>
+
+
+
+</menu>

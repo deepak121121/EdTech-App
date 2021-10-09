@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">TwinIOT</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+
+    <string-array name="Program_Type">
+        <item>Pick a program type</item>
+        <item>Preschool or child care</item>
+        <item>After school</item>
+        <item>Camp</item>
+        <item>other</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

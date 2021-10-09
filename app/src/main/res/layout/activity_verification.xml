@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp2555194"
+    android:orientation="vertical"
+    tools:context=".Verification">
+
+    <EditText
+        android:id="@+id/Code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="70dp"
+        android:hint="               Enter Code"
+        android:inputType="numberPassword"
+        android:textColor="@color/black"
+
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/Verify"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="90dp"
+        android:background="#FF6E40"
+        android:text="process"
+        android:textColorHint="@color/white" />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

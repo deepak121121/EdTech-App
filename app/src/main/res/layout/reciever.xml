@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+
+    android:layout_height="wrap_content"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginEnd="7dp"
+    android:layout_marginRight="7dp"
+    android:background="@drawable/draw_reciever"
+    android:maxWidth="300dp"
+    android:maxHeight="400dp"
+
+    android:minHeight="30dp">
+
+    <TextView
+        android:id="@+id/rec"
+        android:layout_width="80dp"
+        android:layout_height="28dp"
+        android:inputType="textMultiLine"
+        android:maxWidth="270dp"
+        android:minWidth="50dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="15dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/rectime"
+        android:layout_width="71dp"
+        android:layout_height="24dp"
+        android:text="12:00am"
+        android:textColor="#373030"
+        tools:ignore="MissingConstraints,UnknownId"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="44dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

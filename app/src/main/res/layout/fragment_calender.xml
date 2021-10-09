@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4EBEE"
+    tools:context=".calenderFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="180dp"
+        android:fontFamily="sans-serif"
+        android:hint=" Select Date"
+        android:textColor="#121111"
+        android:textColorHint="#706868"
+
+        android:textSize="34dp" />
+
+    <ImageView
+        android:id="@+id/cal"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/calendar" />
+
+
+</FrameLayout>

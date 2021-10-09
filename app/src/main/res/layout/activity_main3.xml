@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wp2555194"
+    tools:context=".MainActivity2">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorHint="@color/black">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="sans-serif-black"
+            android:text="what would you like to do?"
+            android:textColor="@color/black"
+
+            android:textSize="24dp" />
+
+        <Button
+            android:id="@+id/Create"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="80dp"
+
+            android:backgroundTint="#FF6E40"
+            android:text="Create new school"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/Join"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="80dp"
+
+            android:backgroundTint="#FF6E40"
+            android:text="Join your school "
+            android:textColor="@color/white" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
