@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         tools:ignore="AllowBackup">
         <activity
+            android:name=".Dashboard2"
+            android:exported="false" />
+        <activity
             android:name=".Personalchat"
             android:exported="true" />
         <activity

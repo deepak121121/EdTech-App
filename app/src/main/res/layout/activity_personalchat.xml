@@ -16,7 +16,7 @@
 
         <EditText
             android:id="@+id/edit1"
-            android:layout_width="345dp"
+            android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:background="@drawable/design"
             android:fontFamily="sans-serif-black"
@@ -24,13 +24,31 @@
             android:padding="10dp"
             android:textColor="@color/black"
             android:textColorHint="#D06E6666"
-            android:textSize="24dp" />
+            android:textSize="20dp" >
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/gallery"
+            android:layout_width="34dp"
+            android:layout_marginLeft="10dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_attachment_24"
+            app:tint="#FF6E40" />
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="34dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_baseline_camera_alt_24"
+            android:layout_marginLeft="10dp"
+            app:tint="#FF6E40" />
 
         <ImageView
             android:id="@+id/messagesend"
-            android:layout_width="64dp"
+            android:layout_width="34dp"
             android:layout_height="match_parent"
             android:src="@drawable/send"
+            android:layout_marginLeft="10dp"
             app:tint="#FF6E40" />
 
 
@@ -73,6 +91,7 @@
 
 
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleImageView"
                 android:layout_width="65dp"
                 android:layout_height="45dp"
                 android:src="@drawable/dd"
@@ -87,17 +106,17 @@
 
             <TextView
                 android:id="@+id/text12"
-                android:layout_width="84dp"
-                android:layout_height="36dp"
+                android:layout_width="86dp"
+                android:layout_height="25dp"
                 android:fontFamily="sans-serif-black"
                 android:text="Deepak"
-                android:textSize="16dp"
+                android:textSize="20dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.268"
+                app:layout_constraintHorizontal_bias="0.24"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.708"
+                app:layout_constraintVertical_bias="0.228"
                 tools:ignore="MissingConstraints" />
 
             <ImageView
@@ -112,10 +131,10 @@
                 app:tint="@color/white" />
 
             <ImageView
+                android:id="@+id/video"
                 android:layout_width="40dp"
                 android:layout_height="44dp"
                 android:src="@drawable/ic_baseline_videocam_24"
-
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.85"
@@ -133,6 +152,22 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:text="   Online"
+                android:textSize="16dp"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.868"
+                tools:ignore="MissingConstraints" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

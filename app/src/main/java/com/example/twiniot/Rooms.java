@@ -21,7 +21,8 @@ public class Rooms extends AppCompatActivity implements BottomNavigationView.OnN
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);        getSupportFragmentManager().beginTransaction().replace(R.id.Frame,new StudentFragment()).commit();
+        super.onCreate(savedInstanceState);
+        getSupportFragmentManager().beginTransaction().replace(R.id.Frame,new StudentFragment()).commit();
 
         setContentView(R.layout.activity_rooms);
         bnv=findViewById(R.id.Bottom);

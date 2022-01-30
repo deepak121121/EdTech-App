@@ -38,12 +38,7 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         nav.setNavigationItemSelectedListener(this);
     }
 
-    /**
-     * Called when an item in the navigation menu is selected.
-     *
-     * @param item The selected item
-     * @return true to display the item as the selected item
-     */
+
     @SuppressLint("NonConstantResourceId")
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {

@@ -70,7 +70,7 @@ public class Registration extends AppCompatActivity {
                                                 @Override
                                                 public void onComplete(@NonNull Task<Void> task) {
                                                     if(task.isSuccessful()){
-                                                        Intent intent=new Intent(Registration.this,MainActivity.class);
+                                                        Intent intent=new Intent(Registration.this,Dashboard2.class);
                                                         startActivity(intent);
                                                         Toast.makeText(Registration.this, "Authentication Successful. Please check your email for Verification", Toast.LENGTH_SHORT).show();
 

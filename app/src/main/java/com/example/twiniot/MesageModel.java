@@ -1,7 +1,7 @@
 package com.example.twiniot;
 
 public class MesageModel {
-    String id,message;
+    String id,message,imageUrl;
     Long timestamp;
 
     public MesageModel(String id, String message, Long timestamp) {
@@ -9,6 +9,8 @@ public class MesageModel {
         this.message = message;
         this.timestamp = timestamp;
     }
+
+
 
     public MesageModel() {
     }
@@ -18,6 +20,13 @@ public class MesageModel {
 
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 
     public String getId() {
         return id;

@@ -38,10 +38,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#536DFE"
-            app:title="Administrator Home"
             android:navigationIcon="@drawable/ic_baseline_dehaze_24"
+            android:titleTextColor="@color/white"
 
-            android:titleTextColor="@color/white">
+            app:title="Administrator Home">
 
 
         </androidx.appcompat.widget.Toolbar>

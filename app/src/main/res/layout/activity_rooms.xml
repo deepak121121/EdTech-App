@@ -25,6 +25,7 @@
         android:layout_alignParentBottom="true"
         android:layout_gravity="start"
         android:background="#448AFF"
+
         app:menu="@menu/menu2">
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>

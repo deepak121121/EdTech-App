@@ -86,7 +86,7 @@ public class MainActivity4 extends AppCompatActivity {
                                                     @Override
                                                     public void onComplete(@NonNull Task<Void> task) {
                                                         if (task.isSuccessful()) {
-                                                            Intent intent = new Intent(MainActivity4.this,Dashboard.class);
+                                                            Intent intent = new Intent(MainActivity4.this,PhoneAuthentication.class);
                                                             startActivity(intent);
                                                             Toast.makeText(MainActivity4.this, "Success", Toast.LENGTH_SHORT).show();
 

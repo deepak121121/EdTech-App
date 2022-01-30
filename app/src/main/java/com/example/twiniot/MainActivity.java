@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         button2=findViewById(R.id.button2);
     }
     public void signup(View v){
-        Intent intent=new Intent(MainActivity.this,Dashboard.class);
+        Intent intent=new Intent(MainActivity.this,MainActivity2.class);
         startActivity(intent);
 
     }
